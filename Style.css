@@ -5,3 +5,7 @@ h1{
 .col{
     background-color: bisque;
 }
+
+.col-sm-{
+    background-color: aqua;
+}
