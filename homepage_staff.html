@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project Kero</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a href="#" class="navbar-brand">Kero</a>
+            
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav" aria-controls="nav" aria-label="Expand Navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="nav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="order管理.html" class="nav-link active">order管理</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="已售設備管理.html" class="nav-link active">已售設備管理</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="庫存管理.html" class="nav-link active">庫存管理</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link active">資料查詢</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link active">系統設定</a>
+                    </li>
+                </ul>
+                
+            </div>
+            
+        </div>
+    </nav>
+    <center>
+        <h3>工作列表</h3>
+    </center>
+
+    <div class="container" style="margin-bottom: 50px;">
+        <button class="btn btn-dark" data-bs-toggle="collapse" data-bs-target="#rowWork" aria-expanded="false" aria-controls="row">我的工作</button>
+         
+        <div class="row collapse" id="rowWork">
+         <div class="d-flex justify-content-end mb-2">
+             <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal">新增工作</button>
+         </div>
+         <table class="table caption-top table-hover">
+         <div class="modal fade" id="modal">
+             <div class="modal-dialog">
+                 <div class="modal-content">
+                     <div class="modal-header">
+                        
+                     </div>
+                     <div class="modal-body">Body</div>
+                     <div class="modal-footer">Footer</div>
+                 </div>
+             </div>
+         </div>
+             <thead>
+             <tr>
+                 <th scope="col">No</th>
+                 <th scope="col">委任事項</th>
+                 <th scope="col">公司</th>
+                 <th scope="col">廠區</th>
+                 <th scope="col">phase</th>
+                 <th scope="col">單位</th>
+                 <th scope="col">負責人名</th>
+                 <th scope="col">主管姓名</th>
+                 <th scope="col">機台編號</th>
+             </tr>
+         </thead>
+         <tbody>
+             <tr>
+                 <th scope="row">1</th>
+                 <td>hello</td>
+                 <td>work</td>
+                 <td>oh</td>
+                 <td>hii</td>
+                 <td>hello</td>
+                 <td>work</td>
+                 <td>oh</td>
+                 <td>oh</td>
+             </tr>
+         </tbody>
+ 
+         </table>
+        </div>
+        
+ 
+     </div>
+
+    <div class="container" style="margin-bottom: 50px;">
+        <button class="btn btn-dark" data-bs-toggle="collapse" data-bs-target="#rowAppoint" aria-expanded="false" aria-controls="row">我的委任</button>
+         
+        <div class="row collapse" id="rowAppoint">
+         <div class="d-flex justify-content-end mb-2">
+             <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal">新增委任</button>
+         </div>
+         <table class="table caption-top table-hover">
+         <div class="modal fade" id="modal">
+             <div class="modal-dialog">
+                 <div class="modal-content">
+                     <div class="modal-header">
+                        
+                     </div>
+                     <div class="modal-body">Body</div>
+                     <div class="modal-footer">Footer</div>
+                 </div>
+             </div>
+         </div>
+             <thead>
+             <tr>
+                 <th scope="col">No</th>
+                 <th scope="col">委任事項</th>
+                 <th scope="col">公司</th>
+                 <th scope="col">廠區</th>
+                 <th scope="col">phase</th>
+                 <th scope="col">單位</th>
+                 <th scope="col">負責人名</th>
+                 <th scope="col">主管姓名</th>
+                 <th scope="col">機台編號</th>
+             </tr>
+         </thead>
+         <tbody>
+             <tr>
+                 <th scope="row">1</th>
+                 <td>hello</td>
+                 <td>work</td>
+                 <td>oh</td>
+                 <td>hii</td>
+                 <td>hello</td>
+                 <td>work</td>
+                 <td>oh</td>
+                 <td>oh</td>
+             </tr>
+         </tbody>
+ 
+         </table>
+        </div>
+        
+ 
+     </div>
+
+    <div class="container">
+       <button class="btn btn-dark" data-bs-toggle="collapse" data-bs-target="#rowAssign" aria-expanded="false" aria-controls="row">我的指派</button>
+        
+       <div class="row collapse" id="rowAssign">
+        <div class="d-flex justify-content-end mb-2">
+            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal">新增指派</button>
+        </div>
+        <table class="table caption-top table-hover">
+        <div class="modal fade" id="modal">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                       
+                    </div>
+                    <div class="modal-body">Body</div>
+                    <div class="modal-footer">Footer</div>
+                </div>
+            </div>
+        </div>
+            <thead>
+            <tr>
+                <th scope="col">No</th>
+                <th scope="col">委任事項</th>
+                <th scope="col">公司</th>
+                <th scope="col">廠區</th>
+                <th scope="col">phase</th>
+                <th scope="col">單位</th>
+                <th scope="col">負責人名</th>
+                <th scope="col">主管姓名</th>
+                <th scope="col">機台編號</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">1</th>
+                <td>hello</td>
+                <td>work</td>
+                <td>oh</td>
+                <td>hii</td>
+                <td>hello</td>
+                <td>work</td>
+                <td>oh</td>
+                <td>oh</td>
+            </tr>
+        </tbody>
+
+        </table>
+       </div>
+       
+
+    </div>
+    
+    
+    
+
+
+</body>
+</html>
