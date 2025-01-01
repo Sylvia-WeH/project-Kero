@@ -1,11 +1,29 @@
 h1{
-    color:yellow;
+    color:blue;
 }
 
-.col{
+/* .col{
     background-color: bisque;
+} */
+
+.col-sm-{
+    background-color: aqua;
+}
+.box{
+    background-color: lightblue;
+    border: 1px solid blue;
+    min-height: 50px;
+    font-size: 2rem;
 }
 
-.col-sm{
-    background-color: aqua;
+.nav-item{
+    font-size: 0.75rem;
+}
+
+.table-hover tbody tr:hover td{
+    background-color: burlywood;
+}
+
+a {
+    text-decoration: none;
 }
